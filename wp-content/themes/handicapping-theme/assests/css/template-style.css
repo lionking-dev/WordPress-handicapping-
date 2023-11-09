@@ -1,0 +1,938 @@
+.home-banner {
+    position: relative;
+    padding-top: 110px;
+}
+
+.home-banner-content {
+    padding-top: 64px;
+    position: relative;
+    padding-bottom: 165px;
+}
+
+.home-banner-content .e-2 {
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    width: 110%;
+    opacity: 0.4;
+}
+
+.home-banner-content .e-1 {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    object-fit: cover;
+    width: 748px;
+    right: -110px;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 0;
+    width: 1440px;
+    height: 414px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    left: 0;
+    width: 100%;
+    z-index: 110;
+}
+
+.home-banner::before {
+    content: "";
+    position: absolute;
+    background-image: url(/wp-content/themes/handicapping-theme/assests/images/image-3.png);
+    background-size: cover;
+    top: -64px;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+.LEGE-NDS {
+    height: 556px;
+    top: 127px;
+    left: 146px;
+    opacity: 0.3;
+    font-family: "Figtree", Helvetica;
+    font-weight: 900;
+    color: var(--naturalwhite);
+    font-size: 320.4px;
+    letter-spacing: 0;
+    line-height: 278px;
+    margin-left: -22px;
+    cursor: default;
+}
+
+.home-banner .text-wrapper {
+    width: 449px;
+    height: 108px;
+    top: 693px;
+    left: 165px;
+    font-family: var(--text-s-font-family);
+    font-weight: var(--text-s-font-weight);
+    color: var(--grey-100);
+    font-size: var(--text-s-font-size);
+    letter-spacing: var(--text-s-letter-spacing);
+    line-height: var(--text-s-line-height);
+    font-style: var(--text-s-font-style);
+}
+
+/* ----------Handicapper---------- */
+
+.homepage-content {
+    position: relative;
+}
+
+.content-title-border {
+    display: none;
+}
+
+.homepage-content img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.homepage-content .union {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-content .union-1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+
+.handicapper-wrapper {
+    padding: 160px 0;
+}
+
+.wrapper-title {
+    padding-bottom: 60px;
+}
+
+.wrapper-title h3 {
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+.wrapper-title h3 .span {
+    color: #ffffff;
+} 
+
+.wrapper-title h3 .text-wrapper-2 {
+    color: var(--primary-color);
+}
+
+.handicapper-wrapper .tab-button-box {
+    display: flex;
+}
+
+.handicapper-wrapper .tab-button {
+    position: relative;
+    width: fit-content;
+    border-color: var(--grey-500);
+    display: flex;
+    margin-top: -1px;
+    font-family: var(--text-xl-font-family);
+    font-weight: var(--text-xl-font-weight);
+    color: #ffffff;
+    font-size: var(--text-xl-font-size);
+    text-align: center;
+    letter-spacing: var(--text-xl-letter-spacing);
+    line-height: var(--text-xl-line-height);
+    font-style: var(--text-xl-font-style);
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    position: relative;
+    backdrop-filter: blur(14px) brightness(100%);
+    -webkit-backdrop-filter: blur(14px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(131.75, 131.75, 131.75, 0) 100%);
+    cursor: pointer;
+}
+
+.handicapper-wrapper .tab-button.best {
+    border-top: 1.5px solid ;
+    border-left: 1.5px solid ;
+    border-right: none;
+    border-bottom: none;
+    border-color: var(--grey-500);
+}
+
+.handicapper-wrapper .tab-button.leaders {
+    border-top: 1.5px solid ;
+    border-right: 1.5px solid ;
+    border-left: 1.5px solid;
+    border-bottom: none;
+    border-color: var(--grey-500);
+}
+
+.handicapper-wrapper .tab-button.active {
+    background: var(--primary-color);
+    
+}
+
+.handicapper-wrapper .list-wrapper {
+    padding: 32px 32px 0 32px;
+    border: 1.5px solid var(--grey-500);
+}
+
+.handicapper-wrapper .list-item {
+    position: relative;
+    margin-bottom: 32px;
+    flex: 0 0 auto;
+}
+
+.handicapper-wrapper .list-item-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--grey-800);
+    cursor: default;
+}
+
+.handicapper-wrapper .list-item-header i {
+    transform: rotate(180deg);
+
+}
+
+.handicapper-wrapper .list-item-title {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20.9px;
+    white-space: nowrap;
+}
+
+.handicapper-wrapper .list-content {
+   
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--naturalblack);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-color: var(--grey-800);
+} 
+
+.handicapper-wrapper .list-content .content-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--grey-800);
+}
+
+.handicapper-wrapper .text-wrapper-left {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "DM Sans", Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.handicapper-wrapper .text-wrapper-right {
+    position: relative;
+    width: 54px;
+    margin-top: -1px;
+    font-family: "DM Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.handicapper-wrapper .text-wrapper-right.first, .handicapper-wrapper .text-wrapper-left.first {
+    color: var(--primary-color);
+}
+
+
+.wrapper-title.legends {
+    padding-top: 160px;
+}
+
+.legends-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .legends-card .ellipse {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+  }
+  
+  .legends-card .frame {
+    gap: 24px;
+    padding: 80px 16px 16px;
+    align-self: stretch;
+    width: 100%;
+    margin-top: -56px;
+    z-index: 0;
+    border: 1px solid;
+    border-color: var(--grey-500);
+    backdrop-filter: blur(14px) brightness(100%);
+    -webkit-backdrop-filter: blur(14px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(131.75, 131.75, 131.75, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .legends-card .div {
+    gap: 8px;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .legends-card .JIMMY-BOYD {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .legends-card .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .legends-card .frame-2 {
+    gap: 8px;
+    margin-left: -4px;
+    margin-right: -4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .legends-card .text-wrapper-2 {
+    position: relative;
+    width: 34px;
+    margin-top: -1px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff9300;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    height: 34px;
+  }
+  
+  .legends-card .buy-today-s-winner {
+    position: relative;
+    align-self: stretch;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff9300;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .legends-picks-work {
+    padding: 80px 0;
+  }
+
+  .legends-picks-work .work-sept {
+
+    gap: 32px;
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .legends-picks-work .work-sept .work-sept-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
+  }
+  
+  .legends-picks-work .field-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 40px;
+    border: 1.5px solid;
+    border-color: #ff9300;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .legends-picks-work .field-wrapper .field-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -80px;
+  }
+  
+.legends-picks-work .field {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+.legends-picks-work .line {
+    position: relative;
+    
+    height: 1.5px;
+  }
+  
+.legends-picks-work .work-sept-text {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 113px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+.legends-picks-work .text-wrapper {
+    position: relative;
+    width: 233px;
+    margin-top: -1px;
+    font-family: var(--text-l-font-family);
+    font-weight: var(--text-l-font-weight);
+    color: #ffffff;
+    font-size: var(--text-l-font-size);
+    text-align: center;
+    letter-spacing: var(--text-l-letter-spacing);
+    line-height: var(--text-l-line-height);
+    font-style: var(--text-l-font-style);
+  }
+  
+.legends-picks-work .button {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border: 1.5px solid;
+    border-color: #ff9300;
+    all: unset;
+    box-sizing: border-box;
+  }
+
+.legends-picks-work-container {
+    max-width: 1271px;
+    margin: 0 auto;
+}
+
+  .legends-picks-work .work-sept-button {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.5px;
+    font-family: var(--text-l-font-family);
+    font-weight: var(--text-l-font-weight);
+    color: #ff9300;
+    font-size: var(--text-l-font-size);
+    letter-spacing: var(--text-l-letter-spacing);
+    line-height: var(--text-l-line-height);
+    white-space: nowrap;
+    font-style: var(--text-l-font-style);
+    border: 1.5px solid var(--primary-color);
+    padding: 16px 20px;
+    min-width: 350px;
+    margin: 150px 20px 0 20px ;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .legends-picks-work .work-sept-button:hover {
+    background-color: var(--primary-color);
+    transition: all 0.3s;
+    color: #ffffff;
+  }
+
+  .free-picks {
+    margin-top: 190px;
+    background: url(/wp-content//themes/handicapping-theme/assests/images/qqqqq-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .free-picks-content {
+    padding: 150px 0 165px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .free-picks-content img {
+    position: absolute;
+    top: -165px;
+    right: 0;
+  }
+
+  .free-picks-content .wrapper-title {
+    padding-bottom: 38px;
+  }
+
+  .free-picks-content h3 {
+    text-align: left;
+    width: auto;
+  }
+
+  .free-picks .text-inbox {
+    padding-bottom: 20px;
+  }
+
+  .free-picks .text-inbox input {
+    height: 52px;
+    width: 425px;
+    background-color: #ffffff33;
+    border: 1px solid;
+    border-color: var(--grey-500);
+    font-family: var(--text-base-font-family);
+    font-weight: var(--text-base-font-weight);
+    color: #ffffff;
+    font-size: var(--text-base-font-size);
+    letter-spacing: var(--text-base-letter-spacing);
+    line-height: var(--text-base-line-height);
+    font-style: var(--text-base-font-style);
+    padding: 0 20px;
+  }
+
+  .free-picks .text-inbox input::placeholder {
+    color: #ffffff;
+    font-weight: 100;
+  }
+
+  .free-picks .inbox-button {
+    cursor: pointer;
+    display: flex;
+    width: 212px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    position: relative;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 1.5px solid var(--primary-color);
+    transition: all 0.3s;
+  }
+
+  .free-picks .inbox-button:hover {
+    transition: all 0.3s;
+    background-color: transparent;
+  }
+
+  .footer-bottom-left.active {
+    display: none;
+  }
+
+@media (max-width: 1325px) {
+    .home-banner-content .e-1 {
+        width: 640px;
+        right: 0;
+    }
+
+    .home-banner-content .e-2 {
+        width: 100%;
+    }
+
+    .LEGE-NDS {
+        height: auto;
+        font-size: 280.4px;
+        line-height: 232px;
+        padding-bottom: 10px;
+        transition: all 0.1s;
+        margin-left: -22px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .home-banner .text-wrapper {
+        width: 375px;
+    }
+
+    .home-banner-content {
+        padding-top: 0px;
+    }
+
+    .free-picks-content img {
+        right: 0px;
+    }
+
+    .home-banner-content .e-1 {
+        width: 640px;
+    }
+}
+
+@media (max-width: 1160px) {
+    
+
+    .legends-picks-work .work-sept .work-sept-item {
+        flex-direction: column;
+        float: left;
+    }
+    
+    .legends-picks-work .line {
+        width: 0.5px;
+        height: 60px;
+        background: var(--primary-color);
+    }
+
+    .legends-picks-work .field-wrapper .field-text {
+        left: none;
+        transform: none;
+        right: -300px;
+        bottom: 0;
+        width: 250px;
+        margin-left: 46px;
+    }
+
+    .legends-picks-work .text-wrapper {
+        text-align: left;
+    }
+
+    .legends-picks-work .work-sept {
+        display: flex;
+        width: 100%;
+        left: 50%;
+        margin-left: -158px;
+        width: 315px;
+    }
+
+    .legends-picks-work .work-sept-button {
+        margin-top: 60px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .home-banner-content .e-1 {
+        width: 520px;
+    }
+    
+}
+
+@media (max-width: 978px) {
+
+    .home-banner-content {
+        padding-bottom: 70px;
+    }
+
+    .home-banner-content .e-1 {
+        width: 460px;
+    }
+
+    .rectangle {
+        height: 200px;
+    }
+
+    .LEGE-NDS {
+        height: auto;
+        font-size: 234.4px;
+        line-height: 185px;
+        padding-bottom: 10px;
+        transition: all 0.1s;
+        margin-left: -17px;
+    }
+
+    .footer-top-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .footer-top-right {
+        text-align: center;
+    }
+
+    .footer-top-right-item {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-top-right-item .item {
+
+    }
+
+    .free-picks-content img {
+        width: 400px;
+        top: -135px;
+    }
+
+    .free-picks-content {
+        padding: 228px 0 70px 0;
+    }
+
+    .footer-top {
+        padding: 80px 0 30px 0
+    }
+}
+
+@media (max-width: 850px) {
+    .home-banner-content {
+        padding-bottom: 25px;
+    }
+
+    .free-picks-content img {
+        width: 285px;
+        top: -98px;
+    }
+
+    .home-banner-content .e-1 {
+        width: 390px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .home-banner .text-wrapper {
+        width: 100%;
+    }
+
+    .home-banner-content .e-1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home-banner-content {
+        padding-bottom: 370px;
+    } 
+
+    .footer-bottom-right {
+        float: none;
+        text-align: center;
+    }
+
+    .footer-bottom-left {
+        display: none;
+    }
+
+    .footer-bottom-left.active {
+        display: block;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+        margin: auto;
+        padding: 12px;
+    }
+
+    .footer-bottom-left.active p {
+        line-height: 14px;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .LEGE-NDS {
+        height: auto;
+        font-size: 192.4px;
+        line-height: 155px;
+        padding-bottom: 10px;
+        transition: all 0.1s;
+        margin-left: -14px;
+    }
+
+    .home-banner-content {
+        padding-top: 4px;
+    }
+
+    .rectangle {
+        height: 95px;
+    }
+
+    .legends-picks-work .work-sept {
+        padding-left: 0;
+    }
+
+    .free-picks .text-inbox input {
+        width: 425px;
+    }
+
+    h3 .content-title-border {
+        display: block;
+    }
+
+    .handicapper-wrapper .tab-button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 588px) {
+
+    .home-banner-content .e-1 {
+        width: 300px;
+    }
+
+    .home-banner-content {
+        padding-bottom: 320px;
+    }
+    
+    .LEGE-NDS {
+        height: 206px;
+        top: 0;
+        left: 0;
+        opacity: 0.3;
+        font-family: "Figtree-Black", Helvetica;
+        font-weight: 900;
+        color: var(--naturalwhite);
+        font-size: 105px;
+        letter-spacing: 0;
+        line-height: 99px;
+        margin-left: -5px;
+        padding-bottom: 0;
+    }
+
+    .home-banner-content {
+        padding-top: 4px;
+    }
+
+    .home-banner .text-wrapper {
+        width: 100%;
+    }
+
+    .rectangle {
+        height: 95px;
+    }
+
+    .wrapper-title h3 {
+        font-size: 24px;
+    }
+
+    .free-picks-content img {
+        right: 0;
+        width: 250px;
+        top: -85px;
+    }
+
+    .free-picks .text-inbox input {
+        width: 100%;
+    }
+
+    .free-picks-content {
+        padding: 228px 0 70px 0;
+    }
+
+    .free-picks {
+        margin-top: 80px;
+    }
+
+    .footer-top-left img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .accordion-header i {
+        color: #fff
+    }
+
+    .handicapper-wrapper .list-item-header {
+        cursor: pointer;
+    }
+
+    .handicapper-wrapper .list-wrapper {
+        padding: 32px 15px 0 15px;
+    }
+}
+
+@media (max-width: 370px) {
+    .LEGE-NDS {
+        font-size: 100px;
+        height: 187px;
+        margin-left: -6px;
+    }
+
+    .home-banner-content {
+        padding-bottom: 340px;
+    }
+
+    .free-picks-content img {
+        width: 220px;
+        top: -74px;
+    }
+}
+
+
+
+
+  
+
+

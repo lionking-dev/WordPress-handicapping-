@@ -1,0 +1,125 @@
+/*
+Theme Name: handicapping Theme
+Theme URI: [Your theme's website or repository]
+Description: [Brief description of your theme]
+Author: [Your name]
+Author URI: [Your website or profile]
+Version: 1.0
+Text Domain: handicapping-theme
+*/
+
+/* Add your custom styles below */
+:root {
+  --grey-900: rgba(24, 24, 27, 1);
+  --grey-800: rgba(39, 39, 42, 1);
+  --grey-700: rgba(63, 63, 70, 1);
+  --grey-600: rgba(82, 82, 91, 1);
+  --grey-500: rgba(113, 113, 122, 1);
+  --grey-400: rgba(161, 161, 170, 1);
+  --grey-300: rgba(212, 212, 216, 1);
+  --grey-200: rgba(228, 228, 231, 1);
+  --grey-100: rgba(244, 244, 245, 1);
+  --grey-50: rgba(250, 250, 250, 1);
+  --naturalblack: rgba(0, 0, 0, 1);
+  --naturalwhite: rgba(255, 255, 255, 1);
+  --text-xs-font-family: "DMSans-Regular", Helvetica;
+  --text-xs-font-weight: 400;
+  --text-xs-font-size: 12px;
+  --text-xs-letter-spacing: 0px;
+  --text-xs-line-height: normal;
+  --text-xs-font-style: normal;
+  --text-s-font-family: "DMSans-Medium", Helvetica;
+  --text-s-font-weight: 500;
+  --text-s-font-size: 14px;
+  --text-s-letter-spacing: 0px;
+  --text-s-line-height: 18px;
+  --text-s-font-style: normal;
+  --text-base-font-family: "DMSans-Regular", Helvetica;
+  --text-base-font-weight: 400;
+  --text-base-font-size: 16px;
+  --text-base-letter-spacing: 0px;
+  --text-base-line-height: 20px;
+  --text-base-font-style: normal;
+  --text-l-font-family: "DMSans-Medium", Helvetica;
+  --text-l-font-weight: 500;
+  --text-l-font-size: 18px;
+  --text-l-letter-spacing: 0px;
+  --text-l-line-height: 20.899999618530273px;
+  --text-l-font-style: normal;
+  --text-xl-font-family: "DMSans-Medium", Helvetica;
+  --text-xl-font-weight: 500;
+  --text-xl-font-size: 20px;
+  --text-xl-letter-spacing: 0px;
+  --text-xl-line-height: normal;
+  --text-xl-font-style: normal;
+  --text-2xl-font-family: "DMSans-Bold", Helvetica;
+  --text-2xl-font-weight: 700;
+  --text-2xl-font-size: 24px;
+  --text-2xl-letter-spacing: 0px;
+  --text-2xl-line-height: normal;
+  --text-2xl-font-style: normal;
+  --text-3xl-font-family: "DMSans-Bold", Helvetica;
+  --text-3xl-font-weight: 700;
+  --text-3xl-font-size: 30px;
+  --text-3xl-letter-spacing: 0px;
+  --text-3xl-line-height: normal;
+  --text-3xl-font-style: normal;
+  --text-4xl-font-family: "DMSans-Bold", Helvetica;
+  --text-4xl-font-weight: 700;
+  --text-4xl-font-size: 36px;
+  --text-4xl-letter-spacing: 0px;
+  --text-4xl-line-height: normal;
+  --text-4xl-font-style: normal;
+  --text-5xl-font-family: "DMSans-Bold", Helvetica;
+  --text-5xl-font-weight: 700;
+  --text-5xl-font-size: 48px;
+  --text-5xl-letter-spacing: 0px;
+  --text-5xl-line-height: normal;
+  --text-5xl-font-style: normal;
+  --text-6xl-font-family: "DMSans-Bold", Helvetica;
+  --text-6xl-font-weight: 700;
+  --text-6xl-font-size: 60px;
+  --text-6xl-letter-spacing: 0px;
+  --text-6xl-line-height: normal;
+  --text-6xl-font-style: normal;
+  --text-7xl-font-family: "DMSans-Bold", Helvetica;
+  --text-7xl-font-weight: 700;
+  --text-7xl-font-size: 72px;
+  --text-7xl-letter-spacing: 0px;
+  --text-7xl-line-height: normal;
+  --text-7xl-font-style: normal;
+  --text-8xl-font-family: "DMSans-Bold", Helvetica;
+  --text-8xl-font-weight: 700;
+  --text-8xl-font-size: 96px;
+  --text-8xl-letter-spacing: 0px;
+  --text-8xl-line-height: normal;
+  --text-8xl-font-style: normal;
+  --text-9xl-font-family: "DMSans-Bold", Helvetica;
+  --text-9xl-font-weight: 700;
+  --text-9xl-font-size: 128px;
+  --text-9xl-letter-spacing: 0px;
+  --text-9xl-line-height: normal;
+  --text-9xl-font-style: normal;
+  --primary-color: #ff9300;
+}
+
+body {
+  background-color: rgb(0 0 0);
+  position: relative;
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style: none;
+}

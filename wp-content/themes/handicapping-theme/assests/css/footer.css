@@ -1,0 +1,93 @@
+.footer-wrapper {
+    background: url(/wp-content/themes/handicapping-theme/assests/images/footer.png);
+    background-size: cover;
+}
+
+.footer-top {
+    padding: 120px 0;
+}
+
+.footer-top-right-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    line-height: 13.5px;
+}
+
+.footer-top-right-item > div > a {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-l-font-family);
+    font-weight: var(--text-l-font-weight);
+    color: var(--grey-50);
+    font-size: var(--text-l-font-size);
+    letter-spacing: var(--text-l-letter-spacing);
+    line-height: var(--text-l-line-height);
+    font-style: var(--text-l-font-style);
+    text-decoration: none;
+    line-height: 13.5px;
+}
+
+.footer-bottom {
+    padding: 16px 0;
+    backdrop-filter: blur(10px) brightness(100%);
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(131.75, 131.75, 131.75, 0.19) 100%);
+}
+
+.footer-bottom-right {
+    float: right;
+}
+
+.footer-bottom-right .item-box {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer-bottom-right .item-box .item {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 12px 13px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 70px;
+    cursor: pointer;
+    backdrop-filter: blur(49.37px) brightness(100%);
+    -webkit-backdrop-filter: blur(49.37px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(131.75, 131.75, 131.75, 0.19) 100%);
+}
+
+.footer-bottom-left {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-base-font-family);
+    font-weight: var(--text-base-font-weight);
+    color: var(--naturalwhite);
+    font-size: var(--text-base-font-size);
+    letter-spacing: var(--text-base-letter-spacing);
+    line-height: var(--text-base-line-height);
+    white-space: nowrap;
+    font-style: var(--text-base-font-style);
+}
+
+.footer-bottom-left p {
+    margin: 0;
+    line-height: 48px;
+}
+
+@media (max-width: 978px) {
+    .footer-top-right-item > div > a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-top-right-item > div > a {
+        font-size: var(--text-l-font-size);
+    }
+}
+
